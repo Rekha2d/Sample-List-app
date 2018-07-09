@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding">
+
+    <TextView
+        android:id="@+id/title_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/patient_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/size_6" />
+
+    <EditText
+        android:id="@+id/patient_age_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:paddingLeft="@dimen/size_6" />
+
+    <EditText
+        android:id="@+id/patient_status_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/status"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/size_6" />
+
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
